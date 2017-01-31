@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D1E68CD1E4041BD000F72BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E68CC1E4041BD000F72BA /* AppDelegate.swift */; };
+		2D1E68CF1E4041BD000F72BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E68CE1E4041BD000F72BA /* ViewController.swift */; };
+		2D1E68D21E4041BD000F72BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E68D01E4041BD000F72BA /* Main.storyboard */; };
+		2D1E68D41E4041BD000F72BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E68D31E4041BD000F72BA /* Assets.xcassets */; };
+		2D1E68D71E4041BD000F72BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E68D51E4041BD000F72BA /* LaunchScreen.storyboard */; };
+		2D1E68E21E4041BD000F72BA /* UprisingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E68E11E4041BD000F72BA /* UprisingTests.swift */; };
+		2D1E68ED1E4041BD000F72BA /* UprisingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E68EC1E4041BD000F72BA /* UprisingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D1E68DE1E4041BD000F72BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1E68C11E4041BD000F72BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D1E68C81E4041BD000F72BA;
+			remoteInfo = Uprising;
+		};
+		2D1E68E91E4041BD000F72BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1E68C11E4041BD000F72BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D1E68C81E4041BD000F72BA;
+			remoteInfo = Uprising;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D1E68C91E4041BD000F72BA /* Uprising.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uprising.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1E68CC1E4041BD000F72BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D1E68CE1E4041BD000F72BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D1E68D11E4041BD000F72BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D1E68D31E4041BD000F72BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D1E68D61E4041BD000F72BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D1E68D81E4041BD000F72BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1E68DD1E4041BD000F72BA /* UprisingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UprisingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1E68E11E4041BD000F72BA /* UprisingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UprisingTests.swift; sourceTree = "<group>"; };
+		2D1E68E31E4041BD000F72BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1E68E81E4041BD000F72BA /* UprisingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UprisingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1E68EC1E4041BD000F72BA /* UprisingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UprisingUITests.swift; sourceTree = "<group>"; };
+		2D1E68EE1E4041BD000F72BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D1E68C61E4041BD000F72BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1E68DA1E4041BD000F72BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1E68E51E4041BD000F72BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D1E68C01E4041BD000F72BA = {
+			isa = PBXGroup;
+			children = (
+				2D1E68CB1E4041BD000F72BA /* Uprising */,
+				2D1E68E01E4041BD000F72BA /* UprisingTests */,
+				2D1E68EB1E4041BD000F72BA /* UprisingUITests */,
+				2D1E68CA1E4041BD000F72BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D1E68CA1E4041BD000F72BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D1E68C91E4041BD000F72BA /* Uprising.app */,
+				2D1E68DD1E4041BD000F72BA /* UprisingTests.xctest */,
+				2D1E68E81E4041BD000F72BA /* UprisingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D1E68CB1E4041BD000F72BA /* Uprising */ = {
+			isa = PBXGroup;
+			children = (
+				2D1E68CC1E4041BD000F72BA /* AppDelegate.swift */,
+				2D1E68CE1E4041BD000F72BA /* ViewController.swift */,
+				2D1E68D01E4041BD000F72BA /* Main.storyboard */,
+				2D1E68D31E4041BD000F72BA /* Assets.xcassets */,
+				2D1E68D51E4041BD000F72BA /* LaunchScreen.storyboard */,
+				2D1E68D81E4041BD000F72BA /* Info.plist */,
+			);
+			path = Uprising;
+			sourceTree = "<group>";
+		};
+		2D1E68E01E4041BD000F72BA /* UprisingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D1E68E11E4041BD000F72BA /* UprisingTests.swift */,
+				2D1E68E31E4041BD000F72BA /* Info.plist */,
+			);
+			path = UprisingTests;
+			sourceTree = "<group>";
+		};
+		2D1E68EB1E4041BD000F72BA /* UprisingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D1E68EC1E4041BD000F72BA /* UprisingUITests.swift */,
+				2D1E68EE1E4041BD000F72BA /* Info.plist */,
+			);
+			path = UprisingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D1E68C81E4041BD000F72BA /* Uprising */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1E68F11E4041BD000F72BA /* Build configuration list for PBXNativeTarget "Uprising" */;
+			buildPhases = (
+				2D1E68C51E4041BD000F72BA /* Sources */,
+				2D1E68C61E4041BD000F72BA /* Frameworks */,
+				2D1E68C71E4041BD000F72BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Uprising;
+			productName = Uprising;
+			productReference = 2D1E68C91E4041BD000F72BA /* Uprising.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D1E68DC1E4041BD000F72BA /* UprisingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1E68F41E4041BD000F72BA /* Build configuration list for PBXNativeTarget "UprisingTests" */;
+			buildPhases = (
+				2D1E68D91E4041BD000F72BA /* Sources */,
+				2D1E68DA1E4041BD000F72BA /* Frameworks */,
+				2D1E68DB1E4041BD000F72BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D1E68DF1E4041BD000F72BA /* PBXTargetDependency */,
+			);
+			name = UprisingTests;
+			productName = UprisingTests;
+			productReference = 2D1E68DD1E4041BD000F72BA /* UprisingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D1E68E71E4041BD000F72BA /* UprisingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1E68F71E4041BD000F72BA /* Build configuration list for PBXNativeTarget "UprisingUITests" */;
+			buildPhases = (
+				2D1E68E41E4041BD000F72BA /* Sources */,
+				2D1E68E51E4041BD000F72BA /* Frameworks */,
+				2D1E68E61E4041BD000F72BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D1E68EA1E4041BD000F72BA /* PBXTargetDependency */,
+			);
+			name = UprisingUITests;
+			productName = UprisingUITests;
+			productReference = 2D1E68E81E4041BD000F72BA /* UprisingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D1E68C11E4041BD000F72BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Emily Hough-Kovacs";
+				TargetAttributes = {
+					2D1E68C81E4041BD000F72BA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D1E68DC1E4041BD000F72BA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D1E68C81E4041BD000F72BA;
+					};
+					2D1E68E71E4041BD000F72BA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D1E68C81E4041BD000F72BA;
+					};
+				};
+			};
+			buildConfigurationList = 2D1E68C41E4041BD000F72BA /* Build configuration list for PBXProject "Uprising" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D1E68C01E4041BD000F72BA;
+			productRefGroup = 2D1E68CA1E4041BD000F72BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D1E68C81E4041BD000F72BA /* Uprising */,
+				2D1E68DC1E4041BD000F72BA /* UprisingTests */,
+				2D1E68E71E4041BD000F72BA /* UprisingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D1E68C71E4041BD000F72BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1E68D71E4041BD000F72BA /* LaunchScreen.storyboard in Resources */,
+				2D1E68D41E4041BD000F72BA /* Assets.xcassets in Resources */,
+				2D1E68D21E4041BD000F72BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1E68DB1E4041BD000F72BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1E68E61E4041BD000F72BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D1E68C51E4041BD000F72BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1E68CF1E4041BD000F72BA /* ViewController.swift in Sources */,
+				2D1E68CD1E4041BD000F72BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1E68D91E4041BD000F72BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1E68E21E4041BD000F72BA /* UprisingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1E68E41E4041BD000F72BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1E68ED1E4041BD000F72BA /* UprisingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D1E68DF1E4041BD000F72BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D1E68C81E4041BD000F72BA /* Uprising */;
+			targetProxy = 2D1E68DE1E4041BD000F72BA /* PBXContainerItemProxy */;
+		};
+		2D1E68EA1E4041BD000F72BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D1E68C81E4041BD000F72BA /* Uprising */;
+			targetProxy = 2D1E68E91E4041BD000F72BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D1E68D01E4041BD000F72BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D1E68D11E4041BD000F72BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D1E68D51E4041BD000F72BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D1E68D61E4041BD000F72BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D1E68EF1E4041BD000F72BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D1E68F01E4041BD000F72BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D1E68F21E4041BD000F72BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Uprising/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pisab.Uprising;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2D1E68F31E4041BD000F72BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Uprising/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pisab.Uprising;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2D1E68F51E4041BD000F72BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UprisingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pisab.UprisingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uprising.app/Uprising";
+			};
+			name = Debug;
+		};
+		2D1E68F61E4041BD000F72BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UprisingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pisab.UprisingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uprising.app/Uprising";
+			};
+			name = Release;
+		};
+		2D1E68F81E4041BD000F72BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = UprisingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pisab.UprisingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Uprising;
+			};
+			name = Debug;
+		};
+		2D1E68F91E4041BD000F72BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = UprisingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pisab.UprisingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Uprising;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D1E68C41E4041BD000F72BA /* Build configuration list for PBXProject "Uprising" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1E68EF1E4041BD000F72BA /* Debug */,
+				2D1E68F01E4041BD000F72BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1E68F11E4041BD000F72BA /* Build configuration list for PBXNativeTarget "Uprising" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1E68F21E4041BD000F72BA /* Debug */,
+				2D1E68F31E4041BD000F72BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D1E68F41E4041BD000F72BA /* Build configuration list for PBXNativeTarget "UprisingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1E68F51E4041BD000F72BA /* Debug */,
+				2D1E68F61E4041BD000F72BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D1E68F71E4041BD000F72BA /* Build configuration list for PBXNativeTarget "UprisingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1E68F81E4041BD000F72BA /* Debug */,
+				2D1E68F91E4041BD000F72BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D1E68C11E4041BD000F72BA /* Project object */;
+}
