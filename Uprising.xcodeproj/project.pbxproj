@@ -14,6 +14,9 @@
 		2D1E68E21E4041BD000F72BA /* UprisingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E68E11E4041BD000F72BA /* UprisingTests.swift */; };
 		2D1E68ED1E4041BD000F72BA /* UprisingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E68EC1E4041BD000F72BA /* UprisingUITests.swift */; };
 		2D1E68FD1E404B0B000F72BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E68FC1E404B0B000F72BA /* LoginViewController.swift */; };
+		2D1E68FF1E405502000F72BA /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E68FE1E405502000F72BA /* LoginService.swift */; };
+		2D1E69011E4061B5000F72BA /* ConnectionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E69001E4061B5000F72BA /* ConnectionSettings.swift */; };
+		2DA91C031E4106C800E03D91 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA91C021E4106C800E03D91 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		2D1E68EC1E4041BD000F72BA /* UprisingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UprisingUITests.swift; sourceTree = "<group>"; };
 		2D1E68EE1E4041BD000F72BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D1E68FC1E404B0B000F72BA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2D1E68FE1E405502000F72BA /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		2D1E69001E4061B5000F72BA /* ConnectionSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionSettings.swift; sourceTree = "<group>"; };
+		2DA91C021E4106C800E03D91 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		2D1E68CB1E4041BD000F72BA /* Uprising */ = {
 			isa = PBXGroup;
 			children = (
+				2DA91C021E4106C800E03D91 /* WelcomeViewController.swift */,
 				2D1E68CC1E4041BD000F72BA /* AppDelegate.swift */,
 				2D1E68D01E4041BD000F72BA /* Main.storyboard */,
+				2D1E68FE1E405502000F72BA /* LoginService.swift */,
+				2D1E69001E4061B5000F72BA /* ConnectionSettings.swift */,
 				2D1E68FC1E404B0B000F72BA /* LoginViewController.swift */,
 				2D1E68D31E4041BD000F72BA /* Assets.xcassets */,
 				2D1E68D51E4041BD000F72BA /* LaunchScreen.storyboard */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D1E69011E4061B5000F72BA /* ConnectionSettings.swift in Sources */,
+				2DA91C031E4106C800E03D91 /* WelcomeViewController.swift in Sources */,
 				2D1E68FD1E404B0B000F72BA /* LoginViewController.swift in Sources */,
+				2D1E68FF1E405502000F72BA /* LoginService.swift in Sources */,
 				2D1E68CD1E4041BD000F72BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +515,7 @@
 				2D1E68F31E4041BD000F72BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D1E68F41E4041BD000F72BA /* Build configuration list for PBXNativeTarget "UprisingTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +524,7 @@
 				2D1E68F61E4041BD000F72BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D1E68F71E4041BD000F72BA /* Build configuration list for PBXNativeTarget "UprisingUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +533,7 @@
 				2D1E68F91E4041BD000F72BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
