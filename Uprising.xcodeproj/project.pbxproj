@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2D1E68CD1E4041BD000F72BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E68CC1E4041BD000F72BA /* AppDelegate.swift */; };
-		2D1E68CF1E4041BD000F72BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E68CE1E4041BD000F72BA /* ViewController.swift */; };
 		2D1E68D21E4041BD000F72BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E68D01E4041BD000F72BA /* Main.storyboard */; };
 		2D1E68D41E4041BD000F72BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E68D31E4041BD000F72BA /* Assets.xcassets */; };
 		2D1E68D71E4041BD000F72BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E68D51E4041BD000F72BA /* LaunchScreen.storyboard */; };
 		2D1E68E21E4041BD000F72BA /* UprisingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E68E11E4041BD000F72BA /* UprisingTests.swift */; };
 		2D1E68ED1E4041BD000F72BA /* UprisingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E68EC1E4041BD000F72BA /* UprisingUITests.swift */; };
+		2D1E68FD1E404B0B000F72BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E68FC1E404B0B000F72BA /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		2D1E68C91E4041BD000F72BA /* Uprising.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uprising.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1E68CC1E4041BD000F72BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D1E68CE1E4041BD000F72BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D1E68D11E4041BD000F72BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D1E68D31E4041BD000F72BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D1E68D61E4041BD000F72BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		2D1E68E81E4041BD000F72BA /* UprisingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UprisingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1E68EC1E4041BD000F72BA /* UprisingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UprisingUITests.swift; sourceTree = "<group>"; };
 		2D1E68EE1E4041BD000F72BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1E68FC1E404B0B000F72BA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				2D1E68CC1E4041BD000F72BA /* AppDelegate.swift */,
-				2D1E68CE1E4041BD000F72BA /* ViewController.swift */,
 				2D1E68D01E4041BD000F72BA /* Main.storyboard */,
+				2D1E68FC1E404B0B000F72BA /* LoginViewController.swift */,
 				2D1E68D31E4041BD000F72BA /* Assets.xcassets */,
 				2D1E68D51E4041BD000F72BA /* LaunchScreen.storyboard */,
 				2D1E68D81E4041BD000F72BA /* Info.plist */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D1E68CF1E4041BD000F72BA /* ViewController.swift in Sources */,
+				2D1E68FD1E404B0B000F72BA /* LoginViewController.swift in Sources */,
 				2D1E68CD1E4041BD000F72BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
